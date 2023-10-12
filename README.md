@@ -6,10 +6,10 @@ public class Main
      int s1 = str1.length();
      int s2 = str2.length();
      if (s1<s2){
-         System.out.println(str2);
+         System.out.println(str2.length());
      }
-     else if (s2<s1){
-         System.out.println(str1);
+     else if (s2>s1){
+         System.out.println(str2.length());
      }
  }
 }
